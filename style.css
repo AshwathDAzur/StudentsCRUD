@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: brown;
+  background-color: wheat;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-family: cursive;
+  font-size: 20px;
+  padding: 50px;
+}
+p {
+  color: crimson;
+  text-align: center;
+}
+h1 {
+  color: brown;
+  text-align: center;
+  font-family: fantasy;
+}
+form {
+  margin-left: 25%;
+}
+
+.click {
+  margin-left: 50%;
+  background-color: indianred;
+}
+.dip1 {
+  color: white;
+  background-color: olivedrab;
+  text-align: center;
+}
+.dip2 {
+  color: white;
+  background-color: red;
+  text-align: center;
+}
+.upd {
+  color: beige;
+  margin-left: 50%;
+  background-color: green;
+  width: 15%;
+}
+#update {
+  opacity: 0%;
+}
+.del {
+  background-color: red;
+  width: 15%;
+}
+#delete {
+  opacity: 0%;
+}
+#upddiv {
+  opacity: 0%;
+}
+.find {
+  background-color: indianred;
+}
+.find1 {
+  background-color: indianred;
+}
+#dbutton {
+  background-color: indianred;
+  margin-left: 50%;
+}
+#disp {
+  text-align: center;
+  color: maroon;
+}
+section {
+  margin: 40px auto;
+  max-width: 800px;
+  background-color: rgb(243, 179, 123);
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+section button {
+  color: white;
+  padding: 10px 20px;
+  border: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+section button:hover {
+  background-color: orange;
+  color: black;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%; */
+  margin-left: 27%;
+}
+.logo {
+  color: rgb(248, 247, 247);
+  font-size: 35px;
+  letter-spacing: 1px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+}
+span {
+  color: grey;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a {
+  color: brown;
+  text-decoration: solid;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+nav ul li a:hover {
+  color: orange;
+  transition: 0.4s;
+}
+#myTable {
+  margin-left: 10%;
+}
